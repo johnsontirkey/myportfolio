@@ -1,6 +1,6 @@
 import { Socials } from '@/constants'
 import React from 'react'
-
+import Image from 'next/image'
 const NavBar = () => {
   return (
     <div 
@@ -11,7 +11,7 @@ const NavBar = () => {
             <a href="#about-me"
             className='h-auto w-auto flex flex-row items-center'
             >
-            <img src='/NavLogo.png'
+            <Image src='/NavLogo.png'
             alt="logo"
             width={50}
             height={50}
@@ -39,7 +39,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src={social.src}
                     alt={social.name}
                     width={24}

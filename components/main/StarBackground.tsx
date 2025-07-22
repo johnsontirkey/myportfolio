@@ -3,8 +3,8 @@
 import * as THREE from 'three'
 import React, { useState, useRef, useMemo, Suspense } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Points, PointMaterial } from '@react-three/drei'
-// @ts-ignore
+import { PointMaterial } from '@react-three/drei'
+// @ts-expect-error
 import *as random from 'maath/random/dist/maath-random.esm'
 
 const StarBackground = (props: any) => {

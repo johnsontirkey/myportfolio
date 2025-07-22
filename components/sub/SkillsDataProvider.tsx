@@ -3,7 +3,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-
+import Image from 'next/image'
 
 interface Props{
     src: string;
@@ -35,7 +35,7 @@ const SkillsDataProvider = ({src, width, height, index, label} : Props) => {
         className="relative group w-fit"
         >
 
-            <img
+            <Image
             src={src}
             width={width}
             height={height}
