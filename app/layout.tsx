@@ -8,6 +8,7 @@ import Footer from "@/components/main/Footer";
 
 const jost = Jost({
   variable: "--font-jost-sans",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
