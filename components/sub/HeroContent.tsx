@@ -98,7 +98,8 @@ const HeroContent = () => {
             Hi, I&apos;m <span className="text-purple-400">Johnson Tirkey</span>
           </h2>
           <p className="text-gray-300 text-lg leading-relaxed">
-            I’m a Full Stack Developer who blends design and code to build engaging user experiences. With a passion for clean design, efficient code, and user-first thinking and helping bring ideas to life across web and mobile platforms.
+          I'm a Full Stack Developer who loves blending design and code to create meaningful, user-friendly experiences. 
+          I’m passionate about clean design, writing efficient code, and turning ideas into real, usable products.
           </p>
         </motion.div>
       </section>
