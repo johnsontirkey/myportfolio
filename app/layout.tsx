@@ -8,11 +8,7 @@ import Footer from "@/components/main/Footer";
 
 const jost = Jost({
   variable: "--font-jost-sans",
-<<<<<<< HEAD
-  subsets: ["latin"],
-=======
   subsets: ["latin"]
->>>>>>> b740a54 (Changes)
 });
 
 export const metadata: Metadata = {
