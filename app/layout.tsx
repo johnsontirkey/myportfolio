@@ -23,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        // className={`${geistSans.variable} ${geistMono.variable} bg-[#030014] overflow-y-scroll overflow-x-hidden antialiased`}
          className={`${jost.variable} bg-[#030014] overflow-y-scroll overflow-x-hidden antialiased`}
       >
         <StarsCanvas />
