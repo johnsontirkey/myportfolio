@@ -13,11 +13,11 @@ const NavBar = () => {
             >
             <img src='/NavLogo.png'
             alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin" />
+            width={50}
+            height={50}
+            className="cursor-pointer hover:scale-110 transition-transform duration-300 hover:animate-spin" />
 
-              <span className ="font-bold ml-[10px] hidden md:block text-gray-300">
+              <span className ="font-bold ml-[10px] hidden md:block text-gray-300 hover:scale-110 transition-transform duration-300">
                 Johnson Tirkey
               </span>
             </a>
@@ -25,23 +25,29 @@ const NavBar = () => {
 
             <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
               <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-                <a href="#about-me" className='cursor-pointer'>About Me</a>
-                <a href="#skills" className='cursor-pointer'>Skills</a>
-                <a href="#projects" className='cursor-pointer'>Projects</a>
+                <a href="#about" className='cursor-pointer hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_6px_#A855F7]'>About Me</a>
+                <a href="#skills" className='cursor-pointer hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_6px_#A855F7]'>Skills</a>
+                <a href="#projects" className='cursor-pointer hover:scale-110 transition-transform duration-300 hover:drop-shadow-[0_0_6px_#A855F7]'>Projects</a>
               </div>
             </div>
 
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row gap-5 cursor-pointer">
               {Socials.map((social) => (
-                <img
+                <a
+                  key={social.name}
+                  href={social.link} // Ensure this field exists in your Socials array
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
                     src={social.src}
                     alt={social.name}
-                    key={social.name}
                     width={24}
                     height={24}
-              />
-              )
-            )}
+                    className="hover:scale-110 transition-transform duration-300"
+                  />
+                </a>
+              ))}
             </div>
           
           </div>

@@ -18,15 +18,6 @@ const Footer = () => {
           {/* Community Section */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            {/* <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-red-500"
-            >
-              <FaYoutube />
-              <span className="text-[15px] ml-[6px]">YouTube</span>
-            </a> */}
             <a
               href="https://github.com/johnsontirkey"
               target="_blank"
@@ -36,15 +27,6 @@ const Footer = () => {
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">GitHub</span>
             </a>
-            {/* <a
-              href="https://discord.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-indigo-400"
-            >
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
-            </a> */}
           </div>
 
           {/* Social Media Section */}
@@ -82,17 +64,11 @@ const Footer = () => {
           {/* About Section */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Contact</div>
-            {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-            </p> */}
-            {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]"><a href="#about-me" target="_self"></a>Learn about me</span>
-            </p> */}
             <a
               href="mailto:johnson.tirkey2020@gmail.com"
               className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"
             >
-              <span className="text-[15px] ml-[6px]">johnson.tirkey2020@gmail.com</span>
+              <span className="text-[15px] ml-[6px]">Get in Touch</span>
             </a>
           </div>
         </div>
